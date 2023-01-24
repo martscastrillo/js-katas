@@ -1,15 +1,20 @@
-/* OBJETIVO: Agregar y eliminar elementos de un array.
-Escriba una función que agregue o elimine un elemento en la primera o última posición de un array.
-Ejemplo 1 añadir al principio:
-Input: [1, 6, 9]
-Output: [5, 1, 6, 9]
-Ejemplo 2 añadir al final:
-Input: [1, 6, 9]
-Output: [1, 6, 9, 12]
-Ejemplo 3 eliminar al principio:
-Input: [1, 6, 9]
-Output: [6, 9]
-Ejemplo 4 eliminar al final:
-Input: [1, 6, 9]
-Output: [1, 6]
-CONSIDERACIONES: presentar varias alternativas, una con mutación del array y otra sin mutación (editado)  */
+/*Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers. */
+let odd = 'odd';
+let even = 'even';
+let evenTrue = true;
+function integer(number) {
+    if(number%2!==0){
+        evenTrue =false;
+        console.log('odd');
+        return odd;
+    }
+    else{
+        evenTrue =true;
+        console.log('even');
+
+        return even;
+    }
+}
+
+integer(3);
+console.log(evenTrue);
