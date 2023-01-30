@@ -46,3 +46,58 @@ Enunciados:
 - **KATA 6:** Escribe un programa que reciba un texto y transforme lenguaje natural a "lenguaje hacker" (conocido realmente como "leet" o "1337"). Este lenguaje se caracteriza por sustituir caracteres alfanuméricos.
 - Utiliza esta tabla (https://www.gamehouse.com/blog/leet-speak-cheat-sheet/) con el alfabeto y los números en "leet".
   (Usa la primera opción de cada transformación. Por ejemplo "4" para la "a")
+
+---
+
+- **KATA 7:** Tienes un array de números, tu reto es retornar los números de ese array multiplicados por dos.
+
+Para solucionarlo vas a encontrar una función llamada multiplyElements que recibe un parámetro de entrada:
+
+array: Un array de números
+Dentro del cuerpo de la función multiplyElements debes escribir tu solución.
+
+Ejemplo 1:
+
+Input: [2, 4, 5, 6, 8]
+Output: [4, 8, 10, 12, 16]
+
+Ejemplo 2:
+
+Input: [1, 1, -2, -3]
+Output: [1, 1, -4, -6]
+
+---
+
+- **KATA 8:** Tienes un array de objetos que representan datos de personas con los siguientes atributos:
+
+name: string
+lastName: string
+age: number
+Tu reto es retornar un array de strings con solo los nombres, para solucionarlo vas a encontrar una función llamada llamada getNames que recibe un parámetro de entrada:
+
+array: Un array de objetos.
+Dentro del cuerpo de la función getNames debes escribir tu solución.
+
+Ejemplo:
+
+Input:
+[
+{
+name: 'Nicolas',
+lastName: 'Molina',
+age: 28
+},
+{
+name: 'Valentina',
+lastName: 'Molina',
+age: 19
+},
+{
+name: 'Zulema',
+lastName: 'Vicente',
+age: 21
+},
+]
+
+Output:
+['Nicolas', 'Valentina', 'Zulema']

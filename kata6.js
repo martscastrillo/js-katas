@@ -13,7 +13,6 @@ function humanToLeet(text) {
 
 let arr = text.split('');
 let answerArray = [];
-console.log(arr); 
 for (const iterator of arr) {
     if(iterator==='a'){
         answerArray.push(4)
@@ -101,4 +100,4 @@ for (const iterator of arr) {
 console.log(answerArray.join(''))
 }
 
-humanToLeet('hola')
+humanToLeet('brandelicious')
