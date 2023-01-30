@@ -56,15 +56,12 @@ data = [
   }
 ]
 function addNewAttr(array) {
-  let updateIndex=0;
 for (let index = 0; index < array.length; index++) {
-index.taxes= 20
- updateIndex = index+1;
-console.log(updateIndex)
-
+array[index].taxes= 190*(index+1)
+  console.log(array)
 }
 
-  console.log(array)
+
 
 }
 
