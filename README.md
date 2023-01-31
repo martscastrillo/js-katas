@@ -101,3 +101,302 @@ age: 21
 
 Output:
 ['Nicolas', 'Valentina', 'Zulema']
+
+----
+
+- **KATA 9:**  Tienes un array de objetos que representan datos de productos con los siguientes atributos:
+
+name
+price
+stock
+Tu reto es agregar y calcular una nueva propiedad llamada "taxes", los impuestos deben ser del 19% con base al precio base y debes tener en cuenta que como resultado se debe dejar un valor entero, sin decimales.
+
+Por ejemplo si aplicamos el 19% de impuestos para un producto con precio de $1000 el resultado de los "taxes" será $190, o para un producto con precio de $656 el resultado de los "taxes" será $124.
+
+Para solucionarlo vas a encontrar una función llamada addNewAttr que recibe un parámetro de entrada:
+
+array: Un array de objetos.
+Dentro del cuerpo de la función addNewAttr debes escribir tu solución.
+
+Ejemplo:
+
+Input:
+[
+  {
+    name: "Product 1",
+    price: 1000,
+    stock: 10
+  },
+  {
+    name: "Product 2",
+    price: 2000,
+    stock: 20
+  }
+]
+
+Output:
+[
+  {
+    name: "Product 1",
+    price: 1000,
+    stock: 10,
+    taxes: 190
+  },
+  {
+    name: "Product 2",
+    price: 2000,
+    stock: 20,
+    taxes: 380
+  }
+]
+
+----
+
+- **KATA 10:** Tienes un array de strings que contienen diferentes palabras, tu reto es retornar un array solo con las que cumplan con la condición de tener 4 o más letras.
+
+Para solucionarlo vas a encontrar una función llamada filterByLength que recibe un parámetro de entrada:
+
+array: Un array de strigs con palabras
+Dentro del cuerpo de la función filterByLength debes escribir tu solución.
+
+Ejemplo 1:
+
+Input: ['amor', 'sol', 'piedra', 'día']
+Output: [ 'amor', 'piedra' ]
+
+Ejemplo 2:
+
+Input: ['rosa', 'gol', 'pez', 'día', 'gafas']
+Output: [ 'rosa', 'gafas' ]
+
+----
+
+- **KATA 11:**  Tienes un array de objetos que representan ordenes de compra con los siguientes atributos:
+
+customerName: string
+total: number
+delivered: boolean
+Tu reto es filtrar todas las órdenes de compra que cumplan con la condición de tener un total mayor o igual a 100 y además que el estado delivered sea "true".
+
+Para solucionarlo vas a encontrar una función llamada filterOrders que recibe un parámetro de entrada:
+
+array: Un array de objetos
+Dentro del cuerpo de la función filterOrders debes escribir tu solución.
+
+Ejemplo:
+
+Input:
+[
+  {
+    customerName: "Nicolas",
+    total: 100,
+    delivered: true,
+  },
+  {
+    customerName: "Zulema",
+    total: 120,
+    delivered: false,
+  },
+  {
+    customerName: "Santiago",
+    total: 300,
+    delivered: true,
+  }
+]
+
+Output:
+[
+  {
+    customerName: "Nicolas",
+    total: 100,
+    delivered: true,
+  },
+  {
+    customerName: "Santiago",
+    total: 300,
+    delivered: true,
+  }
+]
+
+-----
+
+- **KATA 12:** Tu reto en este desafío es buscar si ese string tiene un término de búsqueda dado, por ejemplo verificar si dentro de la frase "Ana lava la tina" está el término "ana" y si lo tiene retornar un true de lo contrario retornar un false, debes tener en cuenta que debe encontrar coincidencias, así el término de búsqueda sea mayúscula o minúscula.
+
+Para solucionarlo vas a encontrar una función llamada checkInString que recibe dos parámetros de entrada:
+
+text: Un string
+term: Un string con el término a buscar
+Dentro del cuerpo de la función checkInString debes escribir tu solución.
+
+Ejemplo 1:
+
+Input: "Ana lava la tina", "ana"
+Output: true
+
+Ejemplo 2:
+
+Input: "Santiago", "tiago"
+Output: true
+
+Ejemplo 3:
+
+Input: "Nicolas", "ana"
+Output: false
+
+---
+
+- **KATA 13:** Tu reto es retornar un array solo con las palabras que cumplan con la condición de tener un término de búsqueda dado.
+
+Para solucionarlo vas a encontrar una función llamada filterByTerm que recibe los siguientes parámetros de entrada:
+
+array: Un array de strigs con palabras
+term: Un string con el término a buscar
+Dentro del cuerpo de la función filterByTerm debes escribir tu solución.
+
+Ejemplo 1:
+
+Input:
+array: ["ana", "santi", "nico", "anastasia"]
+term: "ana"
+
+Ouput:
+["ana", "anastasia"]
+
+Ejemplo 2:
+
+Input:
+array: ["ana", "santi", "nico", "anastasia"]
+term: "xyz"
+
+Output:
+[] 
+
+---
+
+- **KATA 14:** Tienes un array de números y tu reto es retornar la suma de todos los valores en él.
+
+Para solucionarlo vas a encontrar una función llamada calcSum que recibe un parámetro de entrada:
+
+numbers: Un array de números
+Dentro del cuerpo de la función calcSum debes escribir tu solución.
+
+Ejemplo 1:
+
+Input: [1, 1, 1]
+Ouput: 3
+
+Ejemplo 2:
+
+Input: [2, 4, 8]
+Output: [2, 4, 8]
+
+Ejemplo 3:
+
+Input: []
+Output: 0
+
+-----
+
+- **KATA 15:** Tu reto es retornar true si dentro de array de números al menos uno es un número, para solucionarlo vas a encontrar una función llamada checkArray que recibe un parámetro de entrada:
+
+numbers: Un array de números
+Dentro del cuerpo de la función checkArray debes escribir tu solución.
+
+Ejemplo 1:
+
+Input: [1, 3, 5, 7, 10, 11]
+Output: true
+
+Ejemplo 2:
+
+Input: [1, 3, 5]
+Output: false
+
+Ejemplo 3:
+
+Input: []
+Output: false
+
+------
+
+- **KATA 16:** Tu reto es retornar true si dentro de array de números todos son pares, para solucionarlo vas a encontrar una función llamada checkArray que recibe un parámetro de entrada:
+numbers: Un array de números
+Dentro del cuerpo de la función checkArray debes escribir tu solución.
+
+Ejemplo 1:
+Input: [2, 4, 6, 8, 10]
+Output: true
+
+Ejemplo 2:
+Input: [1, 3, 5, 7, 10, 11]
+Output: false
+
+Ejemplo 3:
+Input: [1, 3, 5]
+Output: false
+
+Ejemplo 4:
+Input: []
+Output: false
+
+------
+
+- **KATA 17:**   Tu reto es retornar Tienes el AS si dentro de array de strings tienes la palabra AS y si no tienes el AS entonces deberás retornar un No, tienes el AS, para solucionarlo vas a encontrar una función llamada findAs que recibe un parámetro de entrada:
+
+numbers: Un array de strigs con nombres de cartas de Poker.
+Dentro del cuerpo de la función findAs debes escribir tu solución.
+
+Ejemplo 1:
+
+Input: ['diamonds', 'hearts', 'spades', 'AS']
+Output: 'Tienes el AS'
+
+Ejemplo 2:
+
+Input: ['diamonds', 'hearts', 'spades']
+Output:'No tienes el AS'
+
+------
+
+- **KATA 18:**  Dado un array de strings tu reto es retornar la posición dentro del array en donde existe la palabra clave "myKey" y si no existe deberás retornar false, para solucionarlo vas a encontrar una función llamada findMyKey que recibe un parámetro de entrada:
+
+array: Un array de strigs.
+Dentro del cuerpo de la función findMyKey debes escribir tu solución.
+
+Ejemplo 1:
+
+Input: ["diamonds", "myKey", "spades", "AS"]
+Output: 1
+
+Ejemplo 2:
+
+Input: ["diamonds", "hearts", "spades"]
+Output: false
+solution();
+
+Ejemplo 3:
+
+Input: ["myKey", "hearts", "spades"]
+Output: 0
+
+------
+
+- **KATA 19:**  Dado un array de strings tu reto es retornar un string en donde cada elemento del array esté separado por comas, para solucionarlo vas a encontrar una función llamada joinString que recibe un parámetro de entrada:
+
+words: Un array de strigs.
+Dentro del cuerpo de la función joinString debes escribir tu solución.
+
+Ejemplo 1:
+
+Input: ["amor", "sol", "piedra", "día"]
+Output: "amor,sol,piedra,día"
+solution();
+
+Ejemplo 2:
+
+Input: ["diamonds", "hearts", "spades"]
+Output: "diamonds,hearts,spades"
+
+------
+
+- **KATA 20:** 
