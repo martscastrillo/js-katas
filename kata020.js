@@ -22,7 +22,7 @@ const data =  "La forma de correr Python"
 const data = "Curso de arrays"*/
 
 function joinString(data) {
-  const newData = data.toLowerCase()
+const newData = data.toLowerCase()
 
 
 const divisiones = newData.split(" ", 7).join('-');

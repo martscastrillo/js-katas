@@ -102,9 +102,9 @@ age: 21
 Output:
 ['Nicolas', 'Valentina', 'Zulema']
 
-----
+---
 
-- **KATA 9:**  Tienes un array de objetos que representan datos de productos con los siguientes atributos:
+- **KATA 9:** Tienes un array de objetos que representan datos de productos con los siguientes atributos:
 
 name
 price
@@ -122,35 +122,35 @@ Ejemplo:
 
 Input:
 [
-  {
-    name: "Product 1",
-    price: 1000,
-    stock: 10
-  },
-  {
-    name: "Product 2",
-    price: 2000,
-    stock: 20
-  }
+{
+name: "Product 1",
+price: 1000,
+stock: 10
+},
+{
+name: "Product 2",
+price: 2000,
+stock: 20
+}
 ]
 
 Output:
 [
-  {
-    name: "Product 1",
-    price: 1000,
-    stock: 10,
-    taxes: 190
-  },
-  {
-    name: "Product 2",
-    price: 2000,
-    stock: 20,
-    taxes: 380
-  }
+{
+name: "Product 1",
+price: 1000,
+stock: 10,
+taxes: 190
+},
+{
+name: "Product 2",
+price: 2000,
+stock: 20,
+taxes: 380
+}
 ]
 
-----
+---
 
 - **KATA 10:** Tienes un array de strings que contienen diferentes palabras, tu reto es retornar un array solo con las que cumplan con la condición de tener 4 o más letras.
 
@@ -169,9 +169,9 @@ Ejemplo 2:
 Input: ['rosa', 'gol', 'pez', 'día', 'gafas']
 Output: [ 'rosa', 'gafas' ]
 
-----
+---
 
-- **KATA 11:**  Tienes un array de objetos que representan ordenes de compra con los siguientes atributos:
+- **KATA 11:** Tienes un array de objetos que representan ordenes de compra con los siguientes atributos:
 
 customerName: string
 total: number
@@ -187,38 +187,38 @@ Ejemplo:
 
 Input:
 [
-  {
-    customerName: "Nicolas",
-    total: 100,
-    delivered: true,
-  },
-  {
-    customerName: "Zulema",
-    total: 120,
-    delivered: false,
-  },
-  {
-    customerName: "Santiago",
-    total: 300,
-    delivered: true,
-  }
+{
+customerName: "Nicolas",
+total: 100,
+delivered: true,
+},
+{
+customerName: "Zulema",
+total: 120,
+delivered: false,
+},
+{
+customerName: "Santiago",
+total: 300,
+delivered: true,
+}
 ]
 
 Output:
 [
-  {
-    customerName: "Nicolas",
-    total: 100,
-    delivered: true,
-  },
-  {
-    customerName: "Santiago",
-    total: 300,
-    delivered: true,
-  }
+{
+customerName: "Nicolas",
+total: 100,
+delivered: true,
+},
+{
+customerName: "Santiago",
+total: 300,
+delivered: true,
+}
 ]
 
------
+---
 
 - **KATA 12:** Tu reto en este desafío es buscar si ese string tiene un término de búsqueda dado, por ejemplo verificar si dentro de la frase "Ana lava la tina" está el término "ana" y si lo tiene retornar un true de lo contrario retornar un false, debes tener en cuenta que debe encontrar coincidencias, así el término de búsqueda sea mayúscula o minúscula.
 
@@ -269,7 +269,7 @@ array: ["ana", "santi", "nico", "anastasia"]
 term: "xyz"
 
 Output:
-[] 
+[]
 
 ---
 
@@ -295,7 +295,7 @@ Ejemplo 3:
 Input: []
 Output: 0
 
------
+---
 
 - **KATA 15:** Tu reto es retornar true si dentro de array de números al menos uno es un número, para solucionarlo vas a encontrar una función llamada checkArray que recibe un parámetro de entrada:
 
@@ -317,11 +317,11 @@ Ejemplo 3:
 Input: []
 Output: false
 
-------
+---
 
 - **KATA 16:** Tu reto es retornar true si dentro de array de números todos son pares, para solucionarlo vas a encontrar una función llamada checkArray que recibe un parámetro de entrada:
-numbers: Un array de números
-Dentro del cuerpo de la función checkArray debes escribir tu solución.
+  numbers: Un array de números
+  Dentro del cuerpo de la función checkArray debes escribir tu solución.
 
 Ejemplo 1:
 Input: [2, 4, 6, 8, 10]
@@ -339,9 +339,9 @@ Ejemplo 4:
 Input: []
 Output: false
 
-------
+---
 
-- **KATA 17:**   Tu reto es retornar Tienes el AS si dentro de array de strings tienes la palabra AS y si no tienes el AS entonces deberás retornar un No, tienes el AS, para solucionarlo vas a encontrar una función llamada findAs que recibe un parámetro de entrada:
+- **KATA 17:** Tu reto es retornar Tienes el AS si dentro de array de strings tienes la palabra AS y si no tienes el AS entonces deberás retornar un No, tienes el AS, para solucionarlo vas a encontrar una función llamada findAs que recibe un parámetro de entrada:
 
 numbers: Un array de strigs con nombres de cartas de Poker.
 Dentro del cuerpo de la función findAs debes escribir tu solución.
@@ -356,9 +356,9 @@ Ejemplo 2:
 Input: ['diamonds', 'hearts', 'spades']
 Output:'No tienes el AS'
 
-------
+---
 
-- **KATA 18:**  Dado un array de strings tu reto es retornar la posición dentro del array en donde existe la palabra clave "myKey" y si no existe deberás retornar false, para solucionarlo vas a encontrar una función llamada findMyKey que recibe un parámetro de entrada:
+- **KATA 18:** Dado un array de strings tu reto es retornar la posición dentro del array en donde existe la palabra clave "myKey" y si no existe deberás retornar false, para solucionarlo vas a encontrar una función llamada findMyKey que recibe un parámetro de entrada:
 
 array: Un array de strigs.
 Dentro del cuerpo de la función findMyKey debes escribir tu solución.
@@ -379,9 +379,9 @@ Ejemplo 3:
 Input: ["myKey", "hearts", "spades"]
 Output: 0
 
-------
+---
 
-- **KATA 19:**  Dado un array de strings tu reto es retornar un string en donde cada elemento del array esté separado por comas, para solucionarlo vas a encontrar una función llamada joinString que recibe un parámetro de entrada:
+- **KATA 19:** Dado un array de strings tu reto es retornar un string en donde cada elemento del array esté separado por comas, para solucionarlo vas a encontrar una función llamada joinString que recibe un parámetro de entrada:
 
 words: Un array de strigs.
 Dentro del cuerpo de la función joinString debes escribir tu solución.
@@ -397,6 +397,40 @@ Ejemplo 2:
 Input: ["diamonds", "hearts", "spades"]
 Output: "diamonds,hearts,spades"
 
-------
+---
 
-- **KATA 20:** 
+- **KATA 20:** En este desafío vas a recibir el título de un artículo y tú debes transformarlo en un formato de URL en donde normalmente se transforma todo en minúscula y se cambian los espacios por un guion (-).
+  Para solucionarlo vas a encontrar una función llamada parseToURL que recibe un parámetro de entrada:
+
+title: Un String con el título.
+Dentro del cuerpo de la función parseToURL debes escribir tu solución.
+
+Ejemplo 1:
+Input: "La forma de correr Python"
+Output: "la-forma-de-correr-python"
+
+Ejemplo 2:
+Input: "La API para nunca parar de aprender"
+Output: "la-api-para-nunca-parar-de-aprender"
+
+Ejemplo 3:
+Input: "Curso de arrays"
+Output: "curso-de-arrays"
+
+---
+
+- **KATA 21:** En este desafío recibirás dos arrays de números como parámetros de entrada y debes retornar un array que tenga los dos arrays unidos, para solucionarlo vas a encontrar una función llamada mergeArrays que recibe dos parámetros de entrada:
+
+arrayA: Un array
+arrayB: Un array
+Dentro del cuerpo de la función mergeArrays debes escribir tu solución.
+
+Ejemplo 1:
+
+Input: [1, 2, 3], [4, 5, 6]
+Output: [1, 2, 3, 4, 5 , 6]
+
+Ejemplo 2:
+
+Input: ["A", "B", "C"], ["D", "E", "H"]
+Output: ["A", "B", "C", "D", "E", "H"]
