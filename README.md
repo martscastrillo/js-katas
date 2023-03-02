@@ -458,4 +458,35 @@ Output:
 
 ---
 
-- **KATA 22:**
+- **KATA 22:** En este desafío tienes un array que contiene otros arrays internos, tu reto es retornar un array que tenga los elementos de los otros arrays eliminando los arrays internos y dejando solo los valores, normalmente a esto le llamamos aplanar el array o "Flattening Algorithm".
+  Para solucionarlo vas a encontrar una función llamada flatArray que recibe un parámetro de entrada:
+  array: Un array que tiene otros arrays dentro
+  Dentro del cuerpo de la función flatArray debes escribir tu solución.
+
+Ejemplo:
+
+Input:
+[
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9],
+]
+
+Output:
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+---
+
+- **KATA 23:** En este desafío te damos como entrada un número positivo mayor a cero y debes regresar un arreglo con todos los números primos menores o iguales a ese número de entrada ordenados de menor a mayor.
+
+Recuerda que un número es primo si es solo divisible por 1 y por si mismo.
+
+Nota: Todos los números primos son números impares a excepción del número 2. El número 1 no es primo porque no cumple con las dos condiciones mencionadas arriba.
+
+Input
+
+solution(5);
+
+Output
+
+[2, 3, 5]
