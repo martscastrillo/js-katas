@@ -490,3 +490,66 @@ solution(5);
 Output
 
 [2, 3, 5]
+
+---
+
+- **KATA 24:** DESCRIPTION:
+
+The goal is to create a function of two inputs number and power, that "raises" the number up to power (ie multiplies number by itself power times).
+
+Examples
+
+numberToPower(3, 2) // -> 9 ( = 3 _ 3 )
+numberToPower(2, 3) // -> 8 ( = 2 _ 2 \* 2 )
+numberToPower(10, 6) // -> 1000000
+
+---
+
+- **KATA 25:** BACK TO BASICS
+
+Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
+const name = "Juan David";
+const lastname = "Castro Gallego";
+const completeName = name + lastname;
+const nickname = "juandc";
+
+console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
+
+---
+
+- **KATA 26:** BACK TO BASICS
+
+Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
+const tipoDeSuscripcion = "Basic";
+
+switch (tipoDeSuscripcion) {
+case "Free":
+console.log("Solo puedes tomar los cursos gratis");
+break;
+case "Basic":
+console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+break;
+case "Expert":
+console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+break;
+case "ExpertPlus":
+console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
+break;
+}
+
+---
+
+- **KATA 27:** BACK TO BASICS
+
+Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
+for (let i = 0; i < 5; i++) {
+console.log("El valor de i es: " + i);
+}
+
+for (let i = 10; i >= 2; i--) {
+
+}
+
+---
+
+- **KATA 28:**
