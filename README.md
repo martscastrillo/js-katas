@@ -607,3 +607,55 @@ id: "456",
 name: 'Juanita Alcaparra',
 },
 ]
+
+---
+
+- **KATA 31:** Counting sheep...
+  Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+For example,
+
+[true, true, true, false,
+true, true, true, true ,
+true, false, true, false,
+true, false, false, true ,
+true, true, true, true ,
+false, false, true, true]
+The correct answer would be 17.
+
+Hint: Don't forget to check for bad values like null/undefined
+
+---
+
+- **KATA 32:** Counting sheep...
+  Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+For example,
+
+[true, true, true, false,
+true, true, true, true ,
+true, false, true, false,
+true, false, false, true ,
+true, true, true, true ,
+false, false, true, true]
+The correct answer would be 17.
+
+Hint: Don't forget to check for bad values like null/undefined
+
+---
+
+- **KATA 33:** OBJETIVO: Agregar y eliminar elementos de un array.
+  Escriba una función que agregue o elimine un elemento en la primera o última posición de un array.
+  Ejemplo 1 añadir al principio:
+  Input: [1, 6, 9]
+  Output: [5, 1, 6, 9]
+  Ejemplo 2 añadir al final:
+  Input: [1, 6, 9]
+  Output: [1, 6, 9, 12]
+  Ejemplo 3 eliminar al principio:
+  Input: [1, 6, 9]
+  Output: [6, 9]
+  Ejemplo 4 eliminar al final:
+  Input: [1, 6, 9]
+  Output: [1, 6]
+  CONSIDERACIONES: presentar varias alternativas, una con mutación del array y otra sin mutación (editado)

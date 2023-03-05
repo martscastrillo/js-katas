@@ -11,3 +11,17 @@ solution(5);
 Output
 
 [2, 3, 5] */
+
+
+function esPrimo(numero) {
+    
+    for(let i = 2,raiz=Math.sqrt(numero); i <= raiz; i++)
+        if(numero % i === 0) return false;
+    return numero > 1;
+}  
+for (let x=0;x<=100;x++) {
+    if (esPrimo(x))
+    let Newarr = arr.push(x);
+    }
+
+esPrimo(5);
