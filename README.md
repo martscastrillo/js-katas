@@ -552,4 +552,58 @@ for (let i = 10; i >= 2; i--) {
 
 ---
 
-- **KATA 28:**
+- **KATA 28:** Calcular medidas circulo: diametro, perimetro y área
+
+---
+
+- **KATA 29:** En este desafío debes calcular la altura sin decimales de un triángulo escaleno (todos sus lados son distintos) o false en caso de que los parámetros recibidos no cumplan los requisitos del triángulo escaleno.
+
+Input
+
+trianguloEscaleno(16,8,10)
+trianguloEscaleno(6,6,6)
+
+Output
+
+4
+false
+
+---
+
+- **KATA 30:** En este desafío vas a recibir un array de objetos. Cada objeto representa a un usuario. Debes encontrar al usuario con cierto ID y retornar su nombre. En caso de no existir, debes retornar false.
+
+Input
+
+const users = [];
+users.push({ id: 123, name: 'Juanito Alcachofa' });
+users.push({ id: 456, name: 'Juanita Alcaparra' });
+
+solution(users, 456);
+solution(users, 999);
+
+Output
+
+Juanita Alcaparra
+false
+
+---
+
+- **KATA 31:** En este desafío debes convertir las llaves y valores de un objeto en propiedades (id y name) de un objeto dentro de un array.
+  Input
+  const obj = {
+  123: 'Juanito Alcachofa',
+  456: 'Juanita Alcaparra',
+  };
+  solution(obj);
+  Output
+
+[
+{
+id: "123",
+name: 'Juanito Alcachofa',
+},
+{
+id: "456",
+name: 'Juanita Alcaparra',
+},
+]
