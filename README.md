@@ -659,3 +659,14 @@ Hint: Don't forget to check for bad values like null/undefined
   Input: [1, 6, 9]
   Output: [1, 6]
   CONSIDERACIONES: presentar varias alternativas, una con mutación del array y otra sin mutación (editado)
+
+---
+
+- **KATA 34:** The goal is to create a function of two inputs number and power, that "raises" the number up to power (ie multiplies number by itself power times).
+
+Examples
+
+numberToPower(3, 2) // -> 9 ( = 3 _ 3 )
+numberToPower(2, 3) // -> 8 ( = 2 _ 2 \* 2 )
+numberToPower(10, 6) // -> 1000000
+Note: Math.pow and some other Math functions like eval() and \*\* are disabled.
