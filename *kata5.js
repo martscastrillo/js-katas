@@ -11,15 +11,15 @@ Output
 5 */
 let result = 0;
 function solution(number) {
-    
-    if(number%2===0){
-        result =       number/2;
-       console.log(result)
-    }
-    else{
-        result = number+1;
+    if(number%2==0){
+       while (number != 0) {
+        result = number/2;
         console.log(result)
+        
+       }
+     
     }
+ 
 }
-console.log(solution(15));
-solution(15);
+
+solution(16);
