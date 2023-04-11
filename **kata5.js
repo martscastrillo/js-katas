@@ -12,16 +12,17 @@ Output
 
 [2, 3, 5] */
 
+let arr = [];
 
+let Newarr = [];
+console.log(Newarr);
 function esPrimo(numero) {
-    
-    for(let i = 2,raiz=Math.sqrt(numero); i <= raiz; i++)
-        if(numero % i === 0) return false;
-    return numero > 1;
-}  
-for (let x=0;x<=100;x++) {
-    if (esPrimo(x))
-    let Newarr = arr.push(x);
-    }
-
-esPrimo(5);
+	for (let i = 2, raiz = Math.sqrt(numero); i <= raiz; i++)
+		if (numero % i === 0) return false;
+	return numero > 1;
+}
+for (let x = 0; x <= 100; x++) {
+	if (esPrimo(x)) Newarr = arr.push(x);
+}
+console.log(esPrimo(5));
+console.log(Newarr);

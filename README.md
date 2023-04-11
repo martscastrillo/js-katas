@@ -670,3 +670,60 @@ numberToPower(3, 2) // -> 9 ( = 3 _ 3 )
 numberToPower(2, 3) // -> 8 ( = 2 _ 2 \* 2 )
 numberToPower(10, 6) // -> 1000000
 Note: Math.pow and some other Math functions like eval() and \*\* are disabled.
+
+---
+
+- **KATA 35:**
+  Escribe un programa que muestre cómo transcurre un juego de tenis y quién lo ha ganado. El programa recibirá una secuencia formada por "P1" (Player 1) o "P2" (Player 2), según quien gane cada punto del juego.
+- Las puntuaciones de un juego son "Love" (cero), 15, 30, 40, "Deuce" (empate), ventaja.
+- Ante la secuencia [P1, P1, P2, P2, P1, P2, P1, P1], el programa mostraría lo siguiente:
+  15 - Love
+  30 - Love
+  30 - 15
+  30 - 30
+  40 - 30
+  Deuce
+  Ventaja P1
+  Ha ganado el P1
+- Si quieres, puedes controlar errores en la entrada de datos.
+- Consulta las reglas del juego si tienes dudas sobre el sistema de puntos.
+
+---
+
+- **KATA 36:**
+
+Dadas la siguientes clases:
+
+Clase Banda con las propiedades:
+
+nombre - string
+generos - Array
+integrantes - Array
+Crea una clase llamada "Integrante" con las propiedades:
+
+nombre - string
+instrumento - string
+Escribe la lógica para agregar integrantes a la clase Banda en la función agregarIntegrante. En esta función no debe dejar agregar más de un baterista, es decir hay que validar que solo se pueda agregar un integrante con instrumento "Bateria".
+
+La solución debería tener un input y output como los siguientes:
+
+Input
+
+const data = {
+nombre: "Los Jacks",
+generos: ["rock", "pop", "post-punk"],
+integrantes: [],
+}
+const banda = new Banda(data)
+banda.agregarIntegrante(new Integrante({ nombre: "Erik", instrumento: "Guitarra" }))
+banda.agregarIntegrante(new Integrante({ nombre: "Paul", instrumento: "Bateria" }))
+
+Output
+
+{
+"nombre":"Los Jacks",
+"generos":["rock","pop","post-punk"],
+"integrantes":[
+{"nombre":"Erik","instrumento":"Guitarra"},
+{"nombre":"Paul","instrumento":"Bateria"}
+]}
