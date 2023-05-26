@@ -25,3 +25,25 @@ Output
 4
 
 { 0: "lo", 1: "Lograste", 2: "Platzinauta", 3: "!!!" } */
+
+const myArray = new MyArray()
+
+myArray.unshift("!!!")
+myArray.unshift("Platzinauta")
+myArray.unshift("lograste")
+myArray.unshift("lo")
+
+myArray.data
+
+
+class MyArray {
+    constructor() {
+      this.length = 0;
+      this.data = {};
+    }
+    
+    unshift(item){
+     
+    }
+  }
+  

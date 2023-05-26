@@ -20,3 +20,25 @@ myArray.shift()
 Output
 
 "Un 🐱 random en el desafío" */
+
+const myArray = new BetterArray()
+myArray.unshift("Suerte")
+myArray.unshift("Con el")
+myArray.unshift("desafio")
+myArray.unshift("platzinauta")
+myArray.unshift("Un 🐱 random en el desafío")
+
+myArray.shift();
+
+ class BetterArray extends MyArray {
+  constructor(){
+    super()
+    this.length = 0
+    this.data = {}
+  }
+
+  shift(){
+    // Tu código aquí 👈
+    
+  }
+}
