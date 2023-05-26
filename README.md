@@ -825,3 +825,11 @@ myPetList();
 Output:
 
 ["michi", "firulais"]
+
+---
+
+- **KATA 40:**
+
+---
+
+- **KATA 41:**
