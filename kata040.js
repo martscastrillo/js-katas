@@ -23,11 +23,16 @@ function chromosomeCheck(sperm) {
   {
     console.log(`Congratulations! You're going to have a daughter.`);
   }
-  if (sperm == 'XY')
+  else if (sperm == 'XY')
   {
     console.log(`Congratulations! You're going to have a son.`);
+  }
+  else
+  {
+    console.log(`Please, enter a valid chromosome`);
   }
 }
 
 chromosomeCheck('XX');
 chromosomeCheck('XY');  
+chromosomeCheck('YY');  
