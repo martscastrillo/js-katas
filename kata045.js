@@ -1,4 +1,6 @@
-/* En este deafío recibirás dos objetos JSON por parámetros.
+/*
+Combina objetos JSON con el Spread Operator 
+En este deafío recibirás dos objetos JSON por parámetros.
 
 Usando el spread operator, deberás combinar ambos objetos en uno solo. Es posible que no se te envíe alguno de los dos objetos o ninguno, por lo que deberás usar estos por defecto, en su respectivo orden:
 
