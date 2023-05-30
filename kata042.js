@@ -35,7 +35,7 @@ function solution(num1, num2) {
   const firstPart = num1-num2;
   const secondPart = num1+num2; 
 
- return(`${firstPart}${secondPart}`)
+ return(parseInt(`${firstPart}${secondPart}`))
 }
 
 

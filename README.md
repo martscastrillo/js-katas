@@ -915,3 +915,42 @@ Output:
 ---
 
 - **KATA 43:**
+  Vamos a tomar como base los números del 3 al 8 para multiplciarlos por un mismo factor desconocido (x) que nos da ciertos resultados.
+
+Entonces, dada una función que recibe un array númerico con los resultados debes encontrar el factor multiplicador (x) para obtener ese resultado multiplicando por los números del 3 al 8.
+
+Ejemplo:
+
+En el siguiente caso el factor sería 9.
+
+3 _ x = 27
+4 _ x = 36
+5 _ x = 45
+6 _ x = 54
+7 _ x = 63
+8 _ x = 72
+
+Si si un solo factor multiplicador difiere del resto se regresa false.
+
+En el siguiente ejemplo la función regresaria false porque hay una resultado que tiene como factor multiplicador el 6 en lugar del 9 como el resto.
+
+3 _ x = 27
+4 _ x = 36
+5 _ x = 45
+6 _ x = 54
+7 _ 6 = 42 <- 👈
+8 _ x = 72
+
+Input:
+
+solution([27, 36, 45, 54, 63, 72])
+solution([27, 36, 45, 54, 42, 72])
+
+Output:
+
+9
+false
+
+---
+
+- **KATA 44:**
