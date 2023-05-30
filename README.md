@@ -829,7 +829,95 @@ Output:
 ---
 
 - **KATA 40:**
+  En este desafío tendrás que crear tu propia implementación del método shift.
+
+Tendrás que hacer tu propio método shift para borrar el primer elemento que exista en tu array y retornar el elemento eliminado (no olvides modificar la longitud).
+
+En caso de ser un array vacío, este método deberá devolver undefined.
+
+Tu implementación debería tener un input y output como los siguientes:
+
+Input
+
+const myArray = new BetterArray()
+myArray.unshift("Suerte")
+myArray.unshift("Con el")
+myArray.unshift("desafio")
+myArray.unshift("platzinauta")
+myArray.unshift("Un 🐱 random en el desafío")
+
+myArray.shift()
+
+Output
+
+"Un 🐱 random en el desafío"
 
 ---
 
 - **KATA 41:**
+  En este desafío tendrás que crear tu propia implementación del método unshift.
+
+La implementación del método unshift nos debe permitir agregar un elemento al inicio de un array y retornar la nueva longitud del array. En caso de no enviar ningún elemento, este de igual forma nos retornará la longitud actual.
+
+La solución debería tener un input y output como los siguientes:
+
+Input
+
+const myArray = new MyArray()
+
+myArray.unshift("!!!")
+myArray.unshift("Platzinauta")
+myArray.unshift("lograste")
+myArray.unshift("lo")
+
+myArray.data
+
+myArray.data retorna todos los elementos de nuestro array, no te debes preocupar por esta parte, ya está implementado en el código.
+
+Output
+
+1
+2
+3
+4
+
+{ 0: "lo", 1: "Lograste", 2: "Platzinauta", 3: "!!!" }
+
+---
+
+- **KATA 42:**
+  Operación Matemática Oculta
+
+Descripción del reto
+Encuentra la lógica de las siguientes operaciones y números:
+
+5 + 4 = 19
+8 + 2 = 610
+10 + 8 = 218
+12 + 9 = 321
+18 + 2 = 1620
+21 + 5 = 1626
+Basado en la solución del desafio anterios para llegar a la solución crea una función que reciba dos números y llegue al resultado esperado.
+
+Solución del desafio anterior
+
+(5-4) = 1 : (5+4) = 9 → 19
+(8-2) = 6 : (8+2) = 10 → 610
+(10-8) = 2 : (10+8) = 18 → 218
+(12-9) = 3 : (12+9) = 21 → 321
+(18-2) = 16 : (18+2) = 20 → 1620
+(21-5) = 16 : (21+5) = 26 → 1626
+
+Input:
+
+solution(5, 4)
+solution(21, 5)
+
+Output:
+
+19
+1626
+
+---
+
+- **KATA 43:**
