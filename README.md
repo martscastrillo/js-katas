@@ -829,28 +829,22 @@ Output:
 ---
 
 - **KATA 40:**
-  En este desafío tendrás que crear tu propia implementación del método shift.
+  Determine offspring sex based on genes XX and XY chromosomes
 
-Tendrás que hacer tu propio método shift para borrar el primer elemento que exista en tu array y retornar el elemento eliminado (no olvides modificar la longitud).
+The male gametes or sperm cells in humans and other mammals are heterogametic and contain
+one of two types of sex chromosomes.
+They are either X or Y. The female gametes or eggs however, contain only the X
+sex chromosome and are homogametic.
 
-En caso de ser un array vacío, este método deberá devolver undefined.
+The sperm cell determines the sex of an individual in this case. If a sperm cell
+containing an X chromosome fertilizes an egg, the resulting zygote will be XX or female.
+If the sperm cell contains a Y chromosome, then the resulting zygote will be XY or male.
 
-Tu implementación debería tener un input y output como los siguientes:
+Determine if the sex of the offspring will be male or female based on the X or Y
+chromosome present in the male's sperm.
 
-Input
-
-const myArray = new BetterArray()
-myArray.unshift("Suerte")
-myArray.unshift("Con el")
-myArray.unshift("desafio")
-myArray.unshift("platzinauta")
-myArray.unshift("Un 🐱 random en el desafío")
-
-myArray.shift()
-
-Output
-
-"Un 🐱 random en el desafío"
+If the sperm contains the X chromosome, return "Congratulations! You're going to have a
+daughter."; If the sperm contains the Y chromosome, return "Congratulations! You're going to have a son.";
 
 ---
 
