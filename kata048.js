@@ -26,9 +26,15 @@ export class Solution extends HashTable {
     this.data = new Array(size)
   }
 
+  getAllKeys() {
+    const array = this.data
+    let key = []
 
-  getAllKeys(){
-    // Tu código aquí 👈
+    array.forEach((e) => {
+      e.forEach((k) => {
+        key.push(k[0]);
+      })
+    });
+    return key;
   }
 }
-FALTAAAA

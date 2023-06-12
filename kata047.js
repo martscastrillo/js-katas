@@ -45,9 +45,18 @@ export class Solution extends HashTable {
     this.data = new Array(size);
   }
 
-  delete(key){
-    // Tu código aquí 👈
+  delete(key) {
+    const address = this.hashMethod(key)
+    const currentBucket = this.data[address]
+    let deleteCurrent = undefined
+    if (currentBucket.length > 0) {
+      for (let i = 0; i < currentBucket.length; i++) {
+        if (currentBucket[i][0] === key) {
+          deleteCurrent = [key, currentBucket[i][1]]
+          this.data[address].splice(i, 1)
+        }
+      }
+    }
+    return deleteCurrent
   }
 }
-
-FALTAAAA
